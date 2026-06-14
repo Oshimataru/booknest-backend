@@ -27,7 +27,7 @@ public class BooknestBackendApplication {
 		SpringApplication.run(BooknestBackendApplication.class, args);
 	}
 
-	@Scheduled(fixedRate = 5000)
+	@Scheduled(fixedRate = 50000)
 	public void callApi() {
 
 		try {
